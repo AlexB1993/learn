@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
+
+body{
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #16D9E3;
+  }
+
+  .start {
+    font-size: 1.5rem;
+  }
+  
+  h1 {
+    line-height: 1.4;
+    font-size: 4rem;
+  }
+
+  .screen{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      width: 100vw;
+      background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+      align-items: center;
+  }
+
+  .button-container{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+  }
+
+  .button-container > button{
+    margin: 3px;;
+  }
+
+  .time-btn {
+    background-color: transparent;
+    border: 2px solid #C0C0C0;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  .time-btn:hover {
+    border: 2px solid #16D9E3;
+    color: #16D9E3;
+  }
+
+  .board {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
+    box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+  #backButton{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    border: none;
+    line-height: initial;
+  }
+
+  #point{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+  }
+  
